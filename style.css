@@ -1,0 +1,38 @@
+   /* h1 {      /*h1- селектор, а в душка розташоввані правила для нього*/
+      /* color: blue;
+   } */
+
+/* * {
+   color: red;  /*Цей селектор задає правила для всі елементів*/
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+/* p {
+   color: green; /*Цей селектор дає кольоритсику лише параграфам(p)*/
+/* }*/ 
+
+/* .test {
+   color:brown;
+}
+#test_1 {
+   color:blueviolet;
+} */ 
+
+/* .div_1 {
+   color:red;
+   background-color: green;
+}
+.div_1 .div_1_parag {
+   color:blueviolet;
+} */
+
+/* .test > p {  тут ми звертаємося до елементів, які знаходять всередині безпосередньо даного блоку */
+   /* color:red;
+} */
+
+.par-1 + p {   /*Тут ми дустукуємося лише до 1-го параграфа;*/ 
+   color:red;
+}  /* ~ - дустукуємося до всіх елементів div*/
+p[id='pape'] {
+   color:green;
+}
